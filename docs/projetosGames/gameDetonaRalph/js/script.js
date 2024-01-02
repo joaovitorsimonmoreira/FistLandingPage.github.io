@@ -68,15 +68,18 @@ function addListenerHitBox(){
       }else{
         state.values.lifes--;
         state.view.gameLifes.textContent = state.values.lifes
+        playSound('somDeDano2.m4a');
 
         if(state.values.lifes === 0){
           clearInterval(state.values.lifes);
+          playSound('somGameOver.m4a');
           alert(`Game over!, o seu resultado foi ${state.values.scoreValue}`);
           state.view.gameScore.textContent = 0;
           state.values.scoreValue = 0;
           state.view.gameLifes.textContent = 3;
           state.values.lifes = 3;
           state.values.currentTime = 61;
+          
         }
         
       }
