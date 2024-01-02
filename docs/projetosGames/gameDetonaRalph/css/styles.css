@@ -35,17 +35,16 @@ main{
 
 .painel{
   display: flex;
-  height: 31.25rem;
-  width: 100vw;
   margin-top: 1rem;
   justify-content: center;
   align-items: center;
+  border: 2px solid black;
 }
 
 
 .square{
-  height: 9.375rem;
-  width: 9.375rem;
+  width: 150px;
+  height: 150px;
   border: 1px solid #000000;
   background-color: #1bf3ab;
 }
@@ -59,64 +58,3 @@ main{
 
 /* media queries */
 
-@media(max-width: 320px){
-  .menu{
-    height: 6.2rem;
-  }
-
-  .tittle{
-    font-size: 20px;
-    margin-top: 1rem;
-  }
-
-  .painel{
-    width: 100vw;
-    height: 100vh;
-  }
-
-  .square{
-    width: 6.25rem;
-    height: 6.25rem;
-  }
-}
-
-@media(max-width: 375px){
-  .menu{
-    height: 6.2rem;
-  }
-
-  .tittle{
-    font-size: 20px;
-    margin-top: 1rem;
-  }
-
-  .painel{
-    width: 100vw;
-    height: 100vh;
-  }
-
-  .square{
-    width: 7.5rem;
-    height: 7.5rem;
-  }
-}
-@media(max-width: 425px){
-  .menu{
-    height: 6.2rem;
-  }
-
-  .tittle{
-    font-size: 20px;
-    margin-top: 1rem;
-  }
-
-  .painel{
-    width: 100vw;
-    height: 100vh;
-  }
-
-  .square{
-    width: 8.5rem;
-    height: 8.5rem;
-  }
-} 
