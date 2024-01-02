@@ -1,0 +1,30 @@
+@media(max-width: 375px){
+
+  main h1{
+    margin-top: 2rem;
+  }
+
+  .contentBoxes{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    flex-wrap: nowrap;
+  }
+
+ 
+}
+
+@media(max-width: 425px){
+  main h1{
+    margin-top: 2rem;
+  }
+
+  .contentBoxes{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    flex-wrap: nowrap;
+  }
+}
